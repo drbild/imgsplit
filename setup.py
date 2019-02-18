@@ -8,7 +8,7 @@ from os.path import join as pjoin
 
 setup(
     name = 'imgsplit',
-    version = '1.0.0',
+    version = '1.0.1-SNAPSHOT',
     author = 'David R. Bild',
     author_email = 'david@davidbild.org',
     keywords = 'image embedded firmware binary',
