@@ -33,7 +33,7 @@ Please submit bugs, questions, suggestions, or (ideally) contributions
 as issues and pull requests on Github.
 
 ### Authors
-** David R. Bild**
+**David R. Bild**
 
 + [https://www.davidbild.org](https://www.davidbild.org)
 + [https://github.com/drbild](https://github.com/drbild)
