@@ -8,7 +8,7 @@ substantially faster than flashing the entire image.
 
 ## Install
 
-```pip install imgsplit```
+```pip3 install imgsplit```
 
 ## Usage
 
