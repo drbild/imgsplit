@@ -23,13 +23,14 @@ imgsplit input output_segment_at_%d.img`
 $ imgsplit --help
 Usage:
     imgsplit (--version|--help)
-    imgsplit [--bs BS] [--minskip MINSKIP] <image> [<outpattern>]
+    imgsplit [--bs BS] [--minskip MINSKIP] [--outdir OUTDIR] <image> [<outpattern>]
 
 Arguments:
     --bs BS            Block size in bytes. Segments are aligned to this size. [default: 512]
     --minskip MINSKIP  Minimum number of zero blocks to skip. [default: 1024]
+    --outdir OUTDIR    Directory to put the image segments in. [default: ./]
     <image>            Image file to split.
-    <outpattern>       Pattern for naming the segment files. Will be expanded with the segment offset. E.g `image_%08x.img`.
+    <outpattern>       Pattern to expand with segment offset to name the segment files, e.g., `image_%08x.img`.
 ```
 
 ## Contributing
