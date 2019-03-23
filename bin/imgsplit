@@ -35,7 +35,7 @@ Example:
 import docopt
 import os
 
-__version__ = "1.0.1-SNAPSHOT"
+__version__ = "1.1.0"
 
 def is_zero_block(block):
     for b in block:
