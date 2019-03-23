@@ -21,13 +21,3 @@ install:
 
 script:
   - tox
-
-deploy:
-  provider: pypi
-  user: drbild
-  password:
-    secure: secure: "FFXylZi/3oU6EFy6Kgbq7w6WDdlEiFrL4H8vv/9ccPGKI7eSeWzx24r+99jGrzgIbgCX2BhVg6XPdpZB+BXSemUUwbZSnuFgdlB7PI1IxaOyZl60sWV+4yYYTwtuYMipmctqiEMuwS+PbeecksnX8XRtjoAvQhOMek0kEajzdTINcfQBZkvKtXEIsmg/axqneuQvOzA16ZsmRJAS35pgHzFPhIQrDGWKHWPvMThD2h1KyIoLkdk3YpGX2ZPC6UbZEd8MsW1ZZnOT7+7Th1XUzTMV6PfYzvY2lyewVq2mkLLQhcUXDFPZMmeWjZEY9Aw5yAHZVRXXS43xNyTU3fHCbVCCUWCa7stl4rJaf+3lhHdPyjAKy94gFiXLUEVMZQEScTFZ08BvcD/OcPyLSrByJpsmfHKGfb1Y4b1cIp95Uc/nodMXYrXLNn0f3/CpPY3clcoYoOSR0sQlm87QJrlmi2VktEXTB2TfKi3luVITGC2x27t2Xu1GnSqfQvXGKdEXZIdjUrzLosYr87I2OprPzIH/jClPCvCAj1pOP+H8LylmnPAzfCBr1nF50VncVxWCrUgH9xAPfRp8oyJdLB/ZLQDzGJgoWRhYPrjXxCfBBSxoWOseNbZ5bojVl4oaQvEUGlxN6+CoW4yxEy4Ki02BvNjza+JOBFRKE8K/y/Nn0VQ="
-  distributions: sdist
-  on:
-    tags: true
-    python: 3.6
