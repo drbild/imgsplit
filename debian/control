@@ -1,0 +1,16 @@
+Source: imgsplit
+Section: python
+Priority: optional
+Maintainer: David R. Bild <david@davidbild.org>
+Build-Depends: debhelper (>= 9), dh-python,
+ python3-all, python3-setuptools
+Standards-Version: 4.1.1
+Homepage: https://github.com/drbild/imgsplit
+X-Python3-Version: >= 3.2
+
+Package: python3-imgsplit
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Provides: ${python3:Provides}
+Description: Utility to split an image file into multiple segments by
+ removing runs of null or zero bytes.

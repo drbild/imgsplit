@@ -1,0 +1,8 @@
+debhelper-build-stamp
+files
+*.deb
+*.log
+*.substvars
+tmp/
+python3-imgsplit/
+python3-imgsplit/
